@@ -48,6 +48,7 @@ class Event:
     RECEPTION = 'reception'
     CMD_SAY = 'say'
     CMD_ECHO = 'echo'
+    CMD_GUESS = 'guess'
     CMD_EAST = 'east'
     CMD_ABBR_EAST = 'e'
     CMD_NORTH = 'north'
