@@ -27,7 +27,7 @@ class CmdGuess:
         if guess == 8:
                  print("你猜對了")
                  print("猜對也沒用")
-        else         
+        else:        
                  print("猜錯了，偷偷告訴你我想的是8")
         print("遊戲結束，不玩拉")         
         Channel.to_role(entity, Message.TEXT, text)
