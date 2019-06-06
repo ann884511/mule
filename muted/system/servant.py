@@ -8,6 +8,7 @@ from message.message import Message
 from system.channel import Channel
 from system.cmd_combat import CmdCombat
 from system.cmd_echo import CmdEcho
+from system.cmd_guess import CmdGuess
 from system.cmd_inventory import CmdInventory
 from system.cmd_look import CmdLook
 from system.cmd_move import CmdMove
@@ -34,6 +35,7 @@ class Servant(Handler):
 
             CmdCombat(cls._instance)
             CmdEcho(cls._instance)
+            CmdGuess(cls._instance)
             CmdInventory(cls._instance)
             CmdLook(cls._instance)
             CmdMove(cls._instance)
